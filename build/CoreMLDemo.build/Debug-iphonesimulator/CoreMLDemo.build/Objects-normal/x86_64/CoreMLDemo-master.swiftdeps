@@ -1,6 +1,7 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "494649a8239a02ba655a746500852216"
-build_time: [1584749828, 904534000]
+build_time: [1584750413, 961721000]
 inputs:
-  "/Users/admin/Desktop/CoreMLDemo/CoreMLDemo/ViewController.swift": [1584749828, 688559122]
+  "/Users/admin/Desktop/CoreMLDemo/CoreMLDemo/ViewController.swift": [1584750413, 85908485]
   "/Users/admin/Desktop/CoreMLDemo/CoreMLDemo/AppDelegate.swift": [1584749792, 327133754]
+  "/Users/admin/Desktop/CoreMLDemo/build/CoreMLDemo.build/Debug-iphonesimulator/CoreMLDemo.build/DerivedSources/CoreMLGenerated/SqueezeNet/SqueezeNet.swift": [9223372036, 854775807]

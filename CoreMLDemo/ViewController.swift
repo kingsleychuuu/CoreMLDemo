@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreML
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class ViewController: UIViewController, UINavigationControllerDelegate {
 
     var imageView = UIImageView()
     var classifierLabel = UILabel()
@@ -27,8 +28,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
     
     fileprivate func setupView() {
-        view.backgroundColor = .green
-        imageView.backgroundColor = .gray
+        view.backgroundColor = .white
+        imageView.backgroundColor = .lightGray
         imageView.translatesAutoresizingMaskIntoConstraints = false
         classifierLabel.text = "nani"
         classifierLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -67,3 +68,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
 
 }
 
+extension ViewController: UIImagePickerControllerDelegate {
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+}

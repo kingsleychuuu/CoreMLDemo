@@ -18,11 +18,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FdKaxy4dd4vlAX4+KzyyfhkaUSE=
+		eaYKapi2bvRXHe1JQ5F47+LyqQw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SqueezeNet.mlmodelc/coremldata.bin</key>
+		<data>
+		RnMQMmV3XeAJGCIB8ennQxzUZtg=
+		</data>
+		<key>SqueezeNet.mlmodelc/model.espresso.net</key>
+		<data>
+		V7TpvjHECMAf+5L7dOL1Njc+OfA=
+		</data>
+		<key>SqueezeNet.mlmodelc/model.espresso.shape</key>
+		<data>
+		M9rd1IqkJOTu/hF7SBhFbsFAvBw=
+		</data>
+		<key>SqueezeNet.mlmodelc/model.espresso.weights</key>
+		<data>
+		QXHJrDNi7tJxk/OOaUuAH6/2oB8=
+		</data>
+		<key>SqueezeNet.mlmodelc/model/coremldata.bin</key>
+		<data>
+		j9hDVz3+lRgdPyD/Hvw3JkE/a9U=
+		</data>
+		<key>SqueezeNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		3oqEe/+MND1puFOiFebud17y75Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,6 +70,48 @@
 			<key>hash2</key>
 			<data>
 			jzKtsnjdbttCKXRidfUDslg6qpjgOIYn/1PEPM8aP2k=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhUkckcqYEPqh9qGhtriHuNIf7hKvBGFUsrcpBhFEcU=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ull7R4phjHsRa9FZFIrLwMLOJ+W/tr6Gasbu2yAum/c=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FUMmBYWPSwLadjNAo3bXQe1RU0OwlELY3w0tYK2L9Vc=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IhB0gq/kd0tfvmHGUHpZDAmpUDEOnk2hoKT7CIQp2uo=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o6J5YVt4JoF7g83STw7DXQgWSK+jMp0BRpNqhE0YK60=
+			</data>
+		</dict>
+		<key>SqueezeNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
 			</data>
 		</dict>
 	</dict>
