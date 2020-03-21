@@ -220,6 +220,7 @@ SWIFT_CLASS("_TtC10CoreMLDemo11AppDelegate")
 SWIFT_CLASS("_TtC10CoreMLDemo14ViewController")
 @interface ViewController : UIViewController <UINavigationControllerDelegate>
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)cameraTapped;
 - (void)libraryTapped;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -230,6 +231,7 @@ SWIFT_CLASS("_TtC10CoreMLDemo14ViewController")
 
 @interface ViewController (SWIFT_EXTENSION(CoreMLDemo)) <UIImagePickerControllerDelegate>
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
 
 #if __has_attribute(external_source_symbol)
