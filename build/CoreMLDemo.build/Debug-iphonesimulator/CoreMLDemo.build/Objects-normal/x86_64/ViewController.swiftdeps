@@ -51,7 +51,6 @@ depends-top-level:
 - "UILabel"
 - "UINavigationControllerDelegate"
 - "UIViewController"
-- !private "UnicodeScalarType"
 - "ViewController"
 - !private "kCFAllocatorDefault"
 - !private "kCFBooleanTrue"

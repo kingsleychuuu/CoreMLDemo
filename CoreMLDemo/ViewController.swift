@@ -36,7 +36,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         view.backgroundColor = .white
         imageView.backgroundColor = .lightGray
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        classifier.text = "nani"
+        classifier.text = "pick something"
         classifier.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(imageView)
@@ -85,8 +85,8 @@ extension ViewController: UIImagePickerControllerDelegate {
             return
         }
         
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: 299, height: 299), true, 2.0)
-        image.draw(in: CGRect(x: 0, y: 0, width: 299, height: 299))
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 227, height: 227), true, 2.0)
+        image.draw(in: CGRect(x: 0, y: 0, width: 227, height: 227))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         
@@ -117,7 +117,7 @@ extension ViewController: UIImagePickerControllerDelegate {
             return
         }
          
-        classifier.text = "I think this is a \(prediction.classLabel)."
+        classifier.text = "I think this is a \(prediction.classLabel) lol"
     }
 
 }

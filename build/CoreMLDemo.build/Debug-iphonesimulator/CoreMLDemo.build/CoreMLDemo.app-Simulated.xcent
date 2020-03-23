@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>FAKETEAMID.Kingsley.CoreMLDemo</string>
+	<string>TYD3PLNL3A.Kingsley.CoreMLDemo</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>FAKETEAMID.Kingsley.CoreMLDemo</string>
+		<string>TYD3PLNL3A.Kingsley.CoreMLDemo</string>
 	</array>
 </dict>
 </plist>
